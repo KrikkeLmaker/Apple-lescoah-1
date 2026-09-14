@@ -1,0 +1,1 @@
+theme5.help.push(...[{"q":"Ik krijg berichten van iemand die ik niet wil","a":"Open de contact- of gespreksinformatie en blokkeer die persoon. Kijk ook bij de filters voor onbekende afzenders."},{"q":"Een onbekende afzender stuurt mij een link","a":"Tik niet op de link. Controleer eerst wie de afzender is. Deel geen codes of wachtwoorden en vraag hulp bij twijfel."}]);

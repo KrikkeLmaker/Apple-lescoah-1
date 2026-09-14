@@ -1,0 +1,1 @@
+const theme6={intro:"Leer zelfstandig mailen en veilig informatie zoeken op het web. Je leert niet alleen waar de knoppen staan, maar ook hoe je een correcte mail opbouwt, hoe je bijlagen behandelt en hoe je Safari slim gebruikt.",lessons:[],exercises:[],help:[],quiz:[]};

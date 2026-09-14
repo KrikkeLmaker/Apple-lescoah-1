@@ -1,0 +1,1 @@
+const theme5={intro:"Leer vlot én veilig contact houden. Dit thema gaat verder dan alleen op knoppen drukken: je leert wat je op het scherm ziet, welke keuze je best maakt en wat je kunt doen als bellen, Berichten of FaceTime niet werkt.",lessons:[],exercises:[],help:[],quiz:[]};

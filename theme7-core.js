@@ -1,0 +1,1 @@
+const theme7={intro:"Leer bewuster fotograferen en filmen, en leer daarna je beelden terugvinden, verbeteren, ordenen en delen. De nadruk ligt op wat je ziet op het camerascherm en waarom je bepaalde keuzes maakt.",lessons:[],exercises:[],help:[],quiz:[]};

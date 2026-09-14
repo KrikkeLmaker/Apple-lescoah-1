@@ -1,0 +1,1 @@
+theme5.exercises.push(...[{"title":"Oefening 7 • Veiligheidskeuze","text":"Je krijgt zogezegd een bericht van een onbekende afzender: “Je rekening wordt geblokkeerd. Klik hier en geef je code in.” Leg uit wat je doet.","hint":"Niet op de link tikken, geen code delen, afzender controleren en hulp vragen bij twijfel."}]);
