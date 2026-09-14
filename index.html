@@ -9,11 +9,10 @@
 </head>
 <body>
 <div class="wrap">
-<header><div class="brand"><span class="logo"></span><span>Apple Lescoach</span></div><button class="ai-header" onclick="openChatGPT()">🤖 AI-lescoach ↗</button><div class="pill">Thema 1–7 beschikbaar</div></header>
+<header><div class="brand"><span class="logo"></span><span>Apple Lescoach</span></div><div class="pill">Thema 1–7 beschikbaar</div></header>
 <main>
 <section id="home">
   <div class="hero"><h1>Wat wil je vandaag leren?</h1><p>Kies je toestel. Daarna helpt de coach je stap voor stap met leren, oefenen, hulp of een korte test.</p></div>
-  <div class="ai-banner"><div><h3>🤖 Jouw AI-lescoach: CVO LBC Apple Classes iPhone 1</h3><p>Heb je een extra vraag of zie je iets anders op je eigen iPhone? Open de GPT van de cursus. Hij opent in een nieuw tabblad zodat je Lescoach hier open blijft.</p></div><button onclick="openChatGPT()">Open mijn GPT ↗</button></div>
   <div class="device-grid">
     <div class="card" onclick="selectDevice('Mac','🖥️')"><div class="icon">🖥️</div><div><h2>Mac</h2><p>Finder, bestanden, Safari, iCloud, instellingen en meer.</p></div></div>
     <div class="card" onclick="selectDevice('iPhone','📱')"><div class="icon">📱</div><div><h2>iPhone</h2><p>Je iPhone leren kennen, verbinden, instellingen, communicatie, camera en meer.</p><span class="badge ready">Thema 1–7 klaar</span></div></div>
@@ -28,13 +27,11 @@
 <section id="actions" class="hidden">
   <div class="back" onclick="backToThemes()">← Terug naar thema's</div>
   <div class="section-title"><h2 id="themeTitle"></h2><p id="themeIntro"></p></div>
-  <div class="ai-banner"><div><h3>🤖 Extra hulp van jouw eigen GPT</h3><p>CVO LBC Apple Classes iPhone 1 kan meehelpen als jouw scherm afwijkt of je nog een extra vraag hebt over dit thema.</p></div><button onclick="openChatGPT()">Open AI-lescoach ↗</button></div>
   <div class="action-grid">
     <div class="card action" onclick="openMode('learn')"><div class="icon">📘</div><div><h3>Leren</h3><p>Uitgebreide uitleg met stappen, aandachtspunten en een kleine controle-opdracht.</p></div></div>
     <div class="card action" onclick="openMode('practice')"><div class="icon">🧩</div><div><h3>Oefenen</h3><p>Voer praktische opdrachten uit op je eigen iPhone.</p></div></div>
-    <div class="card action" onclick="openMode('help')"><div class="icon">💬</div><div><h3>Hulp vragen</h3><p>Kies waar je vastzit en krijg gerichte begeleiding.</p></div></div>
+    <div class="card action" onclick="openMode('help')"><div class="icon">💬</div><div><h3>Hulp vragen</h3><p>Kies waar je vastzit. Als de vaste hulp niet volstaat, kun je van hieruit jouw AI-lescoach openen.</p></div></div>
     <div class="card action" onclick="openMode('quiz')"><div class="icon">✅</div><div><h3>Test jezelf</h3><p>Controleer wat je al beheerst.</p></div></div>
-    <div class="card action" onclick="openChatGPT()"><div class="icon">🤖</div><div><h3>Vraag het aan de AI-lescoach</h3><p>Open jouw GPT CVO LBC Apple Classes iPhone 1 en stel je vraag over dit thema.</p><span class="badge">Jouw GPT ↗</span></div></div>
   </div>
 </section>
 <section id="coach" class="hidden">
@@ -96,6 +93,6 @@
 <script src="theme7-quiz-3.js"></script>
 <script src="lesson-fixes.js"></script>
 <script src="runtime.js"></script>
-<script src="lesson-enhancements.js"></script>
 <script src="help-integration.js"></script>
+<script src="lesson-enhancements.js"></script>
 </body></html>
