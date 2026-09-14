@@ -24,3 +24,5 @@ Koppel in het bestaande Vercel-project `apple-lescoach` deze GitHub-repository a
 De bestaande productiealias kan zo behouden blijven:
 
 `apple-lescoach-apple-classes.vercel.app`
+
+<!-- deploy-check: 2026-09-14 -->
