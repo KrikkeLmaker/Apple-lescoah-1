@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Lescoach · iPhone & iPad 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+<header><div class="brand"><span class="logo"></span><span>Apple Lescoach</span></div><div class="pill">Thema 1–7 beschikbaar</div></header>
+<main>
+<section id="home">
+  <div class="hero"><h1>Wat wil je vandaag leren?</h1><p>Kies je toestel. Daarna helpt de coach je stap voor stap met leren, oefenen, hulp of een korte test.</p></div>
+  <div class="device-grid">
+    <div class="card" onclick="selectDevice('Mac','🖥️')"><div class="icon">🖥️</div><div><h2>Mac</h2><p>Finder, bestanden, Safari, iCloud, instellingen en meer.</p></div></div>
+    <div class="card" onclick="selectDevice('iPhone','📱')"><div class="icon">📱</div><div><h2>iPhone</h2><p>Je iPhone leren kennen, verbinden, instellingen, communicatie, camera en meer.</p><span class="badge ready">Thema 1–7 klaar</span></div></div>
+    <div class="card" onclick="selectDevice('iPad','▣')"><div class="icon">▣</div><div><h2>iPad</h2><p>Multitasking, Apple Pencil, bestanden, apps, Safari en toegankelijkheid.</p></div></div>
+  </div>
+</section>
+
+<section id="themes" class="hidden">
+  <div class="back" onclick="goHome()">← Ander toestel kiezen</div>
+  <div class="section-title"><h2><span id="themeDeviceIcon"></span> <span id="themeDeviceName"></span></h2><p>Kies een leerthema.</p></div>
+  <div id="themeGrid" class="theme-grid"></div>
+</section>
+
+<section id="actions" class="hidden">
+  <div class="back" onclick="backToThemes()">← Terug naar thema's</div>
+  <div class="section-title"><h2 id="themeTitle"></h2><p id="themeIntro"></p></div>
+  <div class="action-grid">
+    <div class="card action" onclick="openMode('learn')"><div class="icon">📘</div><div><h3>Leren</h3><p>Korte uitleg in duidelijke stappen.</p></div></div>
+    <div class="card action" onclick="openMode('practice')"><div class="icon">🧩</div><div><h3>Oefenen</h3><p>Voer praktische opdrachten uit op je eigen iPhone.</p></div></div>
+    <div class="card action" onclick="openMode('help')"><div class="icon">💬</div><div><h3>Hulp vragen</h3><p>Kies waar je vastzit en krijg gerichte begeleiding.</p></div></div>
+    <div class="card action" onclick="openMode('quiz')"><div class="icon">✅</div><div><h3>Test jezelf</h3><p>Controleer wat je al beheerst.</p></div></div>
+    <div class="card action" onclick="openChatGPT()"><div class="icon">🤖</div><div><h3>Vraag het aan de AI-lescoach</h3><p>Open CVO LBC Apple Classes iPhone 1 in ChatGPT en stel je vraag over dit thema.</p><span class="badge">Opent AI-lescoach ↗</span></div></div>
+  </div>
+</section>
+
+<section id="coach" class="hidden">
+  <div class="back" onclick="backToActions()">← Terug</div>
+  <div class="panel">
+    <div class="panel-head"><strong id="coachTitle">Lescoach</strong><span id="coachModeIcon"></span></div>
+    <div class="panel-body" id="coachBody"></div>
+  </div>
+</section>
+</main>
+<footer>Apple Lescoach • iPhone & iPad 1 • stap voor stap leren op je eigen toestel</footer>
+</div>
+
+<script src="theme1.js"></script>
+<script src="theme2.js"></script>
+<script src="theme3.js"></script>
+<script src="theme4.js"></script>
+<script src="theme5.js"></script>
+<script src="theme6.js"></script>
+<script src="theme7.js"></script>
+<script src="runtime.js"></script>
+</body></html>
